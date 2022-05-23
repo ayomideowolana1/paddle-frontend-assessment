@@ -1,9 +1,38 @@
+@font-face {
+  font-family: Poppins;
+  src: url('../public/fonts/Poppins/Poppins-Regular.ttf');
+}
+@font-face {
+  font-family: Poppins-bold;
+  src: url('../public/fonts/Poppins/Poppins-Bold.ttf');
+}
+@font-face {
+  font-family: Poppins-semibold;
+  src: url('../public/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+:root {
+  --dark-purple: #0c0123;
+  --russian-violet: #1e0040;
+  --medium-blue:#271AC1;
+  --english-violet:#47395D;
+  --midnight:#781C76;
+  --dark-cornflower-blue:#203A6D;
+  --liver-organ:#773D29;
+  --manatee:#9994A3;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(
+    180deg,
+    var(--russian-violet) 0%,
+    var(--dark-purple) 74.48%
+  );
+  /* height: 100vh; */
+  font-family: Poppins;
 }
 
 a {
