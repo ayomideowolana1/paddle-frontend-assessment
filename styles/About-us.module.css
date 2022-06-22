@@ -1,0 +1,205 @@
+.container {
+  /* height: 100%; */
+  padding-top: 3.4vh;
+  position: relative;
+  
+}
+
+.section1 {
+  margin-top: 4.6vh;
+  height: 70vh;
+  position: relative;
+  /* backdrop-filter: blur(5px); */
+}
+
+.section1 .blur {
+  position: absolute;
+  /* border: 1px solid white; */
+  width: 54.5vw;
+  height: 100%;
+  background: rgba(71, 57, 93, 0.5);
+}
+
+.section1 .purpleRect {
+  position: absolute;
+  left: 416px;
+  top: 80px;
+  width: 20vw;
+  height: 47.5vh;
+  background: linear-gradient(180deg, #e600e3 0%, #1f0042 100%);
+  filter: blur(10px);
+}
+.section1 .blueCircle {
+  position: absolute;
+  right: 0px;
+  top: 12.5vh;
+  width: 12.9vw;
+  height: 12.9vw;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #203a6d 0%, #1e0040 82.81%);
+  /* filter: blur(10px); */
+}
+
+.section1 .text {
+  height: 47.5vh;
+  width: 59.8vw;
+  position: absolute;
+  top: 19vh;
+  right: 8vw;
+  margin-top: 5vh;
+}
+
+.line {
+  display: inline-block;
+  width: 70px;
+  height: 0px;
+  border: 2px solid #ffffff;
+  margin-right: 10px;
+  position: relative;
+}
+
+.line span {
+  position: absolute;
+  top: -35px;
+  left: 30%;
+  font-size: 12px;
+}
+
+.lineText {
+  display: inline-block;
+  color: white;
+  font-size: 1.6vh;
+  font-weight: bold;
+}
+
+.textLarge {
+  font-size: 5.9vh;
+  color: white;
+  margin-left: 8.7vw;
+}
+
+.textLarge span {
+  display: block;
+}
+
+.textSmall {
+  font-size: 1.6vh;
+  color: white;
+  width: 27vw;
+  line-height: 2.5;
+  margin-left: 26vw;
+}
+
+.section2 {
+  margin-top: 19vh;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+}
+
+.section2 .text {
+  font-size: 4.4vh;
+  color: white;
+  margin: auto;
+  display: inline-block;
+  margin: auto;
+  line-height: 150%;
+  letter-spacing: 0.05em;
+  /* width: 72vw; */
+}
+.section2 .text span {
+  font-weight: bold;
+}
+
+.section3 {
+  margin-top: 20.31vh;
+  height: 63.5vh;
+  display: flex;
+  color: white;
+  position: relative;
+}
+
+.section3 > div {
+  flex: 1;
+  box-sizing: border-box;
+}
+
+.section3  .plane {
+  flex: 1;
+  max-width: 50%;
+  padding-left: 16vw;
+  box-sizing: border-box;
+  padding-top: 3.7vh;
+}
+
+.section3 .text p {
+  line-height: 166.5%;
+  letter-spacing: -0.01em;
+  word-spacing: 5px;
+  font-size: 1.95vh;
+}
+
+.section3  .header .text {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.section3 .blurFrame {
+  background: rgba(71, 57, 93, 0.5);
+  position: relative;
+}
+.section3 .blurFrameText {
+  position: absolute;
+  top: 6vh;
+  left: 6.11vw;
+}
+.section3 .blurFrameText .header{
+  z-index: +2;
+  margin-top: 6vh;
+}
+.section3 .blur {
+  position: absolute;
+  top: 4.8vh;
+  right: 23.5vw;
+  background: linear-gradient(180deg, #203a6d 0%, #1b003b 100%);
+  width: 266px;
+  height: 366px;
+  filter: blur(10px);
+}
+
+.section3 .gap{
+  height: 5vh;
+}
+
+.section4 {
+  position: relative;
+  height: 33vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 21.3vh;
+  color: white;
+}
+.section4 .text  {
+  margin-left: 7vw;
+  line-height: 166.5%;
+}
+
+.section4 .text .header {
+  font-size: 3.4vh;
+}
+.section4 .text .contact {
+  font-weight: bold;
+  color: #ff00f7;
+}
+
+.section4 .blur{
+  background: linear-gradient(180deg, #773D29 0%, #0C0123 100%);
+  width: 24.3vw;
+  height: 17.8vh;
+  filter: blur(5px);
+  position: absolute;
+  right: 7vw;
+}
+
+

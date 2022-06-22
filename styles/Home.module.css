@@ -1,5 +1,11 @@
 .container {
   padding-top: 3.4vh;
+  position: relative;
+  
+}
+
+.blur{
+  filter: blur(10px);
 }
 
 .nav {
@@ -188,8 +194,9 @@ z-index: 1;
 }
 
 
+
+
  .content{
-  /* border: 1px solid; */
   height: 10.5vh;
   width: 31vw;
   margin: auto;
@@ -203,7 +210,6 @@ z-index: 1;
 
 .content .icons{
   width: 20vw;
-  /* border: 1px solid; */
   margin: auto;
   display: flex;
   justify-content: space-around;
@@ -222,7 +228,6 @@ z-index: 1;
 }
 
 .content .tos{
-  /* border: 1px solid; */
   width: 20vw;
   margin: auto;
   display: flex;
@@ -232,11 +237,13 @@ z-index: 1;
 .content .tos a{
   flex: 1;
   text-align: center;
+  margin-top: 10px;
 }
 
 .content .copyrightText{
-  /* border: 1px solid; */
   margin: 0px;
+  margin-top: 20px;
+  padding-bottom: 10px;
   text-align: center;
 }
 

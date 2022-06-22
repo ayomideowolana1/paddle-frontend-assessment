@@ -1,0 +1,51 @@
+.container{
+    padding-top: 3.4vh;
+    position: relative;
+    height: 100vh;
+    color: white;
+}
+
+
+.header {
+    max-width: 78vw;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 19vh;
+}
+
+.header h1{
+    font-size: 5.4vh;
+}
+
+.header p{
+    line-height: 160%;
+}
+
+.borderedLeft{
+    border-left: 10px solid white;
+    padding-left: 10px;
+}
+
+.header .mTop{
+    margin-top: 6.2vh;
+
+}
+
+
+
+.section{
+    /* border: 1px solid red; */
+    max-width: 78vw;
+    margin: auto;
+    margin-top: 12vh;
+
+}
+
+.section p{
+    margin-top: 3vh;
+    line-height: 1.5;
+}
+
+.section li{
+    text-transform: capitalize;
+}
